@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@bit/terrance_corley.stepstonedemo.alert": "^1.0.0",
+    "@bit/terrance_corley.stepstonedemo.alert": "^1.0.1",
     "@bit/terrance_corley.stepstonedemo.button": "^1.0.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",

@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Alert from '@bit/terrance_corley.stepstonedemo.alert';
 import Button from '@bit/terrance_corley.stepstonedemo.button';
 import styled from 'styled-components';
+import './app.css';
 
 class App extends Component {
     state = {
@@ -29,8 +30,9 @@ class App extends Component {
                     <AlertBtn onClick={this.showAlert}>Show alert</AlertBtn>
                     {shouldDisplayAlert && 
                         <Alert
-                        title="Alert Title"
-                        onClick={this.hideAlert}
+                            title="Alert Title"
+                            onClick={this.hideAlert}
+                            overlayClass="overlay"
                         >
                             This is an alert for StepStone demo purposes.
                         </Alert>
